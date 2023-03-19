@@ -1,0 +1,19 @@
+{
+  "name": "searcher-sponsored-tx",
+  "env": {
+    "PRIVATE_KEY_EXECUTOR": {
+      "required": true
+    },
+    "PRIVATE_KEY_SPONSOR": {
+      "required": true
+    },
+    "RECIPIENT": {
+      "required": true
+    },
+    "FLASHBOTS_SECRET": {
+      "required": true
+    },
+  },
+  "buildScript": "npm install",
+  "startScript": "npm start"
+}
