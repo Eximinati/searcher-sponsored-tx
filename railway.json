@@ -12,7 +12,7 @@
     },
     "FLASHBOTS_SECRET": {
       "required": true
-    },
+    }
   },
   "buildScript": "npm install",
   "startScript": "npm start"
